@@ -1,10 +1,10 @@
 ## Final Project Proposal
 
 ### Team Members:
-Anastasia Bolboceanu
-Anika Johnson
-Bernt Stenberg
-Henock Yacob
+* Anastasia Bolboceanu
+* Anika Johnson
+* Bernt Stenberg
+* Henock Yacob
 
 ### Project Description:
 Create a Fake News Detector to identify and analyze news articles. 
