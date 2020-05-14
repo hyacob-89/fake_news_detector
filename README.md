@@ -6,6 +6,7 @@
 * Bernt Stenberg
 * Henock Yacob
 
+
 ### Project Description:
 Create a Fake News Detector to identify and analyze news articles. The dataset, pulled from Kaggle, was procured from Politifact who focus on categorizing news article to thier pr https://www.politifact.com/factchecks/list/?ruling=false
 
@@ -13,8 +14,10 @@ Create a Fake News Detector to identify and analyze news articles. The dataset, 
 * TRUE – The statement is accurate and there’s nothing significant missing.
 * FALSE – The statement is not accurate.
 
+
 ### Data Management:
 Amazon Relational Database Service (RDS)
+
 
 ### Requirements:
 * Scikit-Learn
@@ -22,6 +25,7 @@ Amazon Relational Database Service (RDS)
 * HTML/CSS/Bootstrap
 * JavaScript 
 * Google Colab
+
 
 ### Steps:
 1. Set up database (S3)
