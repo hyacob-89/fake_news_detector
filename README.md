@@ -7,7 +7,10 @@
 * Henock Yacob
 
 ### Project Description:
-Create a Fake News Detector to identify and analyze news articles. 
+Create a Fake News Detector to identify and analyze news articles. The dataset, pulled from Kaggle, was procured from Politifact who focus on categorizing news article to thier pr https://www.politifact.com/factchecks/list/?ruling=false
+
+** TRUE – The statement is accurate and there’s nothing significant missing.
+** FALSE – The statement is not accurate.
 
 ### Data Management:
 Amazon Relational Database Service (RDS)
@@ -28,4 +31,4 @@ Amazon Relational Database Service (RDS)
 
 
 ### Dataset:
-https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset#True.csv
+https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
