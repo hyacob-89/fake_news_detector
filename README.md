@@ -8,9 +8,9 @@
 
 
 ### Project Description:
-Our goal is to create a Fake News Detector to identify and analyze news articles' truthfulness. The articles were procured from [Politifact](https://www.politifact.com/), who primarily focus on categorizing news articles according to thier [Truth-O-Meter Ratings](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. We'll leverage some machine learning and NLP techniques/algorithms to accomplish this.
+Our goal is to create a Fake News Detector to identify and analyze news articles' truthfulness. The articles were procured from [Politifact](https://www.politifact.com/), who primarily focus on categorizing news articles according to thier [Truth-O-Meter Ratings](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. We'll leverage machine learning and NLP techniques/algorithms to accomplish this.
 
-##### Truthfullness Definitions
+#### Truthfullness Definitions:
 * TRUE – The statement is accurate and there’s nothing significant missing.
 * MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
 * HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
