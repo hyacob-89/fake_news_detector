@@ -8,7 +8,7 @@
 
 
 ### Project Description:
-Using data sets provided by Clément Bisaill via Kaggle, we hope to develop a Fake News Detector designed to identify and analyze news articles', and their level of truthfulness. The list of articles in this dataset were procured by [Politifact](https://www.politifact.com/) and categorized according to their [“Truth-O-Meter Ratings”](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. Our goal is to perform some ETL in Python and PostgreSQL, and leverage machine learning and NLP techniques/algorithms to analyze/detect fake news.
+Using data sets provided by Clément Bisaill via Kaggle, we hope to develop a Fake News Detector designed to identify and analyze news articles, and their level of truthfulness. The list of articles in this dataset were procured by [Politifact](https://www.politifact.com/) and categorized according to their [“Truth-O-Meter Ratings”](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. Our goal is to perform some ETL in Python and PostgreSQL, and leverage machine learning and NLP techniques/algorithms to analyze/detect fake news.
 
 #### Truth-O-Meter Ratings:
   * TRUE – The statement is accurate and there’s nothing significant missing.
