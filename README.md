@@ -8,11 +8,15 @@
 
 
 ### Project Description:
-Create a Fake News Detector to identify and analyze news articles. The dataset, pulled from Kaggle, was procured from Politifact who focus on categorizing news article to thier pr https://www.politifact.com/factchecks/list/?ruling=false
+Our goal is to create a Fake News Detector to identify and analyze news articles' truthfulness. The articles were procured from [Politifact](https://www.politifact.com/), who primarily focus on categorizing news articles according to thier [Truth-O-Meter Ratings](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) "Truthfullness Definitions" listed below.
 
 #### Truthfullness Definitions
 * TRUE – The statement is accurate and there’s nothing significant missing.
+* MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
+* HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
+* MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
 * FALSE – The statement is not accurate.
+* PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
 
 
 ### Data Management:
