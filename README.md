@@ -8,7 +8,7 @@
 
 
 ### Project Description:
-Our goal is to create a Fake News Detector to identify and analyze news articles' truthfulness. The articles were procured from [Politifact](https://www.politifact.com/), who primarily focus on categorizing news articles according to thier [Truth-O-Meter Ratings](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. We'll leverage machine learning and NLP techniques/algorithms to accomplish this.
+Using data sets provided by Clément Bisaill via Kaggle, we hope to develope a Fake News Detector to identify and analyze news articles' and thier level of truthfulness. Procured by [Politifact](https://www.politifact.com/), an organization who primarily focus on categorizing news articles according to thier [Truth-O-Meter Ratings](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. We'll leverage machine learning and NLP techniques/algorithms to accomplish this.
 
 #### Truthfullness Definitions:
 * TRUE – The statement is accurate and there’s nothing significant missing.
