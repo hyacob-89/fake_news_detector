@@ -25,7 +25,8 @@ Amazon Relational Database Service (RDS)
 
 ### Requirements:
 * Scikit-Learn
-* Python 
+* Python
+* PostgreSQL
 * HTML/CSS/Bootstrap
 * JavaScript 
 * Google Colab
