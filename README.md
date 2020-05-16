@@ -6,18 +6,31 @@
 * Bernt Stenberg
 * Henock Yacob
 
+
 ### Project Description:
-Create a Fake News Detector to identify and analyze news articles. 
+Using data sets provided by Clément Bisaill via Kaggle, we hope to develop a Fake News Detector designed to identify and analyze news articles, and their level of truthfulness. The list of articles in this dataset were procured by [Politifact](https://www.politifact.com/) and categorized according to their [“Truth-O-Meter Ratings”](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. Our goal is to perform some ETL in Python and PostgreSQL, and leverage machine learning and NLP techniques to analyze/detect fake news.
+
+#### Truth-O-Meter Ratings:
+  * TRUE – The statement is accurate and there’s nothing significant missing.
+  * MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
+  * HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
+  * MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
+  * FALSE – The statement is not accurate.
+  * PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
+
 
 ### Data Management:
 Amazon Relational Database Service (RDS)
 
+
 ### Requirements:
 * Scikit-Learn
-* Python 
+* Python
+* PostgreSQL
 * HTML/CSS/Bootstrap
 * JavaScript 
 * Google Colab
+
 
 ### Steps:
 1. Set up database (S3)
@@ -28,4 +41,4 @@ Amazon Relational Database Service (RDS)
 
 
 ### Dataset:
-https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset#True.csv
+https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
