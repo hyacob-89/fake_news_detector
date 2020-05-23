@@ -116,23 +116,25 @@ We created our Naive Bayes model using Pyspark. we performed a random split on o
 
 #### Testing Our Naive Bayes Model
 
-To test our Naive Bayes model, we gathered additional Politifact articles (25 true and 25 false), starting with the most recent articles posted on the site from April-May 2020.  
+To test our Naive Bayes model, we gathered additional Politifact articles (25 true and 25 false), starting with the most recent articles posted on the site from April-May 2020.
+
+#### Logistic Regression Model
+
+We created our second model using Logistic Regression and the sentiment analyzer from the Natural Language Toolkit (NLTK) which categorizes words by positive, negative or neutral sentiment. This initial model produced an accuracy of 0.7013. We then applied a CountVectorizer to further improve our model. The second attempt produced an accuracy of 0.9893.
 
 #### Creating our App
 
-We created a fake news detector website to test the predictive power of our model. On the site you can enter a news article and our model will test its accuracy.  
-
-#### Results/Conclusion
-
-
+We created a fake news detector website to test the predictive power of our logistic regression model. On the site you can enter a news article and our model will test its accuracy.  
 
 #### Limitations of NLP models
 
-1) Our model was developed using data from a specific time period: (2016 to 2017)
+1) Our model could be further streamlined to filter out some words that were overweighted in our models. For example, "Reuters" which appears at the beginning of many Reuters articles that were included in the dataset is included as one of the top true news words. Other words like "said" and "Trump" which appear in both true and fake news could be removed for better accuracy. 
+
+2) Our model was developed using data from a specific time period: (2016 to 2017)
 * Naives bayes is based on two assumptions: 1) predictors are independent of each other, and 2) past conditions still hold true. When we make predictions from historical data we may get incorrect results if circumstances have changed.
 *  Top fake news words may change overtime when connected to real world events that fade from popularity. 
 
-2) Our model identifies text patterns well from humans not machines.
+3) Our model identifies text patterns well from humans not machines.
 *  [Bayesian Poisoning:](https://en.wikipedia.org/wiki/Bayesian_poisoning) in email spam detection, spammers will try to break machine learning algorithms by attempting to produce a false positive id by introducing positive words that are less likely to indicate spam into their emails. 
 * Neural Fake News: this type of fake news uses a Neural Network based model to generate news that replicates the language style used in real news. 
 
