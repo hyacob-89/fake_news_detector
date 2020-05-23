@@ -8,15 +8,8 @@
 
 
 #### Project Description
-Using data sets provided by Clément Bisaill via Kaggle, we developed a Fake News Detector designed to identify and analyze news articles, and their level of truthfulness. The list of articles in this dataset were procured by [Politifact](https://www.politifact.com/) and categorized according to their [“Truth-O-Meter Ratings”](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. Data was then taken from Politifact Truth-o-Meter for years 2016-2017 categorized as either "True" or "False". Our goal was to perform ETL on the data in Python and PostgreSQL, and leverage machine learning and NLP techniques to analyze/detect fake news.
+Using data sets provided by Clément Bisaill via Kaggle, we developed a Fake News Detector designed to identify and analyze news articles, and their level of truthfulness. The list of articles in this dataset were procured by [Politifact](https://www.politifact.com/) and categorized according to their [“Truth-O-Meter Ratings”](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/#Truth-O-Meter%20ratings) listed below. Data was then taken from Politifact Truth-o-Meter for years 2016-2017 categorized as either "True" or "False". Our goal was to perform ETL on the data in Python , and leverage machine learning and NLP techniques to analyze/detect fake news.
 
-#### Truth-O-Meter Ratings
-  * TRUE – The statement is accurate and there’s nothing significant missing.
-  * MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
-  * HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
-  * MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
-  * FALSE – The statement is not accurate.
-  * PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
 
 #### How does Politifact Fact-check?
 
@@ -38,7 +31,7 @@ NLP cannot evaluate the truth of a text. It can however, compare stylistic eleme
 
 #### Creating Our NLP Model
 
-Our model uses the Bag of Words approach combined with Term Frequency-Inverse Document Frequency (tf-idf) to eliminate the advantage commonly used words would otherwise enjoy. In essence, all text is stripped of the most common articles and punctuation, and the resulting word frequency of the text is established. TF-IDF adds a degree of nuance to the valuation of words by looking at frequency rate of words across documents, with infrequent words given a higher value (that is, they are considered more important). 
+Our model uses the Bag of Words approach combined with Countectorizer to eliminate the advantage commonly used words would otherwise enjoy. In essence, all text is stripped of the most common articles and punctuation, and the resulting word frequency of the text is established. TF-IDF adds a degree of nuance to the valuation of words by looking at frequency rate of words across documents, with infrequent words given a higher value (that is, they are considered more important). 
 
 “The limitation of the bag of words approach is that it is solely based on using words in the document without taking into consideration any context information.” “Since analysis of words is not enough for predicting fake news, other linguistic approaches such as analysis of the syntax and grammar of the language have to be taken into consideration.” (Shrestha, 2018). 
 
@@ -151,13 +144,13 @@ We created a fake news detector website to test the predictive power of our logi
 * Postgres
 
 ### Project Components:
+* Amazon S3 Cloud
 * Scikit-Learn
 * Python
-* PostgreSQL
 * HTML/CSS/Bootstrap
 * JavaScript 
 * Google Colab
-* NLTK
+* NLT
 
 ------------------------------
 #### How to Run this App:
