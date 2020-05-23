@@ -79,7 +79,7 @@ Text analysis via machine learning requires assigning a numerical value to words
 
 Our model uses the Bag of Words approach combined with Term Frequency-Inverse Document Frequency (tf-idf) to eliminate the advantage commonly used words would otherwise enjoy. In essence, all text is stripped of the most common articles and punctuation, and the resulting word frequency of the text is established. TF-IDF adds a degree of nuance to the valuation of words by looking at frequency rate of words across documents, with infrequent words given a higher value (that is, they are considered more important). 
 
-“The limitation of the bag of words approach is that it is solely based on using wordsin the document without taking into consideration any context information.” “Since analysis of words is not enough for predicting fake news, other linguistic approachessuch as analysis of the syntax and grammar of the language have to be taken into consideration.” (Shrestha, 2018). 
+“The limitation of the bag of words approach is that it is solely based on using words in the document without taking into consideration any context information.” “Since analysis of words is not enough for predicting fake news, other linguistic approaches such as analysis of the syntax and grammar of the language have to be taken into consideration.” (Shrestha, 2018). 
 
 Consider the following simple example:
 
