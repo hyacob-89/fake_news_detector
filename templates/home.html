@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+
+    </style>
+</head>
+
+
+<body>
+    <!-- <body style = "background-image: url(https://www.dreamstime.com/stock-illustration-network-color-technology-communication-background-vector-image45871778)"> -->
+      
+
+ <div style="background-color: lightblue;" >
+<!-- <div style="background-image: url(images/Software.jpg)" > -->
+ <!-- <div class="wrapper" class="img" src="Software.jpg"> -->
+  
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only"> Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">News detector </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> ML Models
+                            <span class="caret"></span>
+                        </a> -->
+                        <!-- <ul class="dropdown-menu"> -->
+                    <li>
+                        <a href="LogisticRegression.html">Logistic Regression</a>
+                    </li>
+                    <li>
+                        <a href="NaiveBayes.html">Naive Bayesß</a>
+                            <!-- </li> -->
+                        <!-- </ul> -->
+                    </li>
+                    <li>
+                        <a href="fake_news_detector.html">Data Analysis</a>
+                    </li>
+                    <li>
+                        <!-- <a href="Data.html">Data</a> -->
+                    </li>
+                </ul>
+            </div>
+        
+        
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="sigline">
+                        <p>
+                            <h4>|   Machine Learning  |    Data Analytics & Visualization   | </h4>
+                            
+                            </main>
+                          
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    
+ 
+ 
+ 
+ 
+ 
+ <div class="page_layout">
+
+        <div class="clf_border">
+
+            <h2><p class = "borderexample">Fake news classifier</p></h2>
+
+            <p class="bodytext">You are reading the news, and might wonder:
+                <br><i>Is this fake news? Or a trustful article?</i>
+                <br>
+                <br>Now you can find out with this fake news classifier.
+                <br> Just by pasting the content of an article. </p>
+                
+                <!-- url_for in Flask is used for creating a URL to prevent the overhead of having to change URLs throughout an application (including in templates). Without url_for, if there is a change in the root URL of your app then you have to change it in every page where the link is present. -->
+            <form action="{{url_for('predict')}}" method="POST">
+                <p class="pagetitles"> Enter the article:
+                    <p>
+                        <textarea name="article" , ID='article' , rows="5" cols="50" style="font-size:12pt;height:220px;width:350px;" , placeholder="Insert here"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+ <!-- </div>
+</div> -->
+
+
+<!-- footer -->
+<div style="position: fixed; right: 0; bottom: 0; width: 100%; background-color:  rgb(73, 135, 189); border-color: white; " class="footer">
+    <div class="row">
+        
+        <div class="col-sm-7 col-md-7">
+            <p style="color: white; text-align: center; margin-top: 10px"><a style="color: white">                                     © 2020 Copyright - Anastasia Bolboceanu, Anika Johnson, Bernt Stenberg, Henock Yacob</a></p>
+        </div>
+    </div> 
+</div>
+</div>
+</body>
+
+</html>
+
+
+
+
+<!-- <style type="text/css">
+    form {
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+    }
+    
+    .page_layout {
+        margin: 0 auto;
+        width: 30%;
+    }
+    
+    .clf_border {
+        border-radius: 20px;
+        margin: 5px;
+        border-style: solid;
+        border-width: thin;
+        display: inline-block;
+        border-color: #D3D3D3;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .borderexample {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #287EC7;
+        width: 360px;
+        background: #287EC7;
+        color: white;
+        font-family: 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-weight: normal;
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    
+    .bodytext {
+        font-family: 'Helvetica Neue', sans-serif;
+        width: 360px;
+        margin: 0 auto;
+    }
+    
+    .pagetitles {
+        font-weight: bold;
+        font-family: 'Helvetica Neue', sans-serif;
+    }
+</style> -->
