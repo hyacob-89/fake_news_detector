@@ -34,7 +34,7 @@ Natural Language Processing is a machine learning method that breaks down and as
 
 #### How can We Replicate the Fact-checking Process with Machine Learning?
 
-NLP cannot evaluate the truth of a text. It can however, compare stylistic elements used by reputable news sources like journalistic writing conventions and contrast that with stylistic elements used by unreliable news sources. Text analysis via machine learning requires assigning a numerical value to words, a task completed by the creation of a machine learning model. How the machine learning algorithm determines the value of each word is critical to the algorithm’s ability to determine patterns of true or fake news, in our case. Valuation of words is completed via a number of standard approaches. 
+NLP cannot evaluate the truth of a text. It can however, compare stylistic elements used by reputable news sources like journalistic writing conventions and contrast that with stylistic elements used by unreliable news sources. Text analysis via machine learning requires assigning a numerical value to words. How the machine learning algorithm determines the value of each word is critical to the algorithm’s ability to determine patterns of true or fake news, in our case. Valuation of words is completed via a number of standard approaches. NLP can also be used for sentiment analysis which categorizes words by their sentiment of positive, negative or neutral.
 
 #### Creating Our NLP Model
 
