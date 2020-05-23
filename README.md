@@ -177,11 +177,7 @@ We created a fake news detector website to test the predictive power of our mode
 ### Step-by-Step Process to Run Naive Bayes Model:
 1. Clone the repo to your desktop.
 2. Open naive_bayes_model.ipynb in Google Colab. 
-3. Add the articles you want to test to sample.csv.
-4. Upload sample.csv to Google Drive.
-5. * google drive loader
-6. * google loader password
-7. * run
+3. run the notebook.
 
 ### Step-by-Step Process to Run App:
 1. Clone the repo to your desktop.
