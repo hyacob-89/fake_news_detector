@@ -26,7 +26,7 @@ a thorough Google search;
 a search of online databases;
 consultation with a variety of experts;
 a review of publications
-and a final overall review of available evidence." [source] (https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/)
+and a final overall review of available evidence." [source](https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/)
 
 #### What is NLP?
 
