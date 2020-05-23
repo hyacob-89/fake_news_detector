@@ -1,6 +1,6 @@
-#### Final Project - Can NLP Machine Learning Predict Fake News?
+### Final Project - Can NLP Machine Learning Predict Fake News?
 
-### Team Members
+#### Team Members
 * Anastasia Bolboceanu
 * Anika Johnson
 * Bernt Stenberg
